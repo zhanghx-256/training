@@ -1,4 +1,8 @@
 //1.未包含范围边界;2.长度判断错误，应为>=10;3.数字判断错误，应传入字符而非整数;4.checked变量未使用
+//输入: Li Hua 1234567890 输出: INVALID
+//输入: Li Hua Li1234567890 输出: INVALID
+//输入: Li Hus 12345678 输出: INVALID
+//输入: Li Hua Lh1234567890 输出: VALID
 #include <iostream>
 #include <string>
 
